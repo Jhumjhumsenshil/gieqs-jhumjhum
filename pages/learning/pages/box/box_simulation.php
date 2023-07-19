@@ -2241,6 +2241,7 @@
             }
             
             if ($('.command-response-row').length == position) {
+                
                 alert('End of iteration')
 
                 $('.command-response-row').each(function() {
